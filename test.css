@@ -1,0 +1,85 @@
+form{
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: grid;
+    padding: 1%;
+    align-content: center;
+    
+}
+
+.injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+  
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    ;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 5%;
+    margin:  0px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 5%;
+    margin: 0px;
+  }
+
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+  }
+  @keyframes background-color{
+     100%{
+       background-color: #4791d0;
+     }
+
+  }
+
+
+  #box-container {
+    display: flex;
+    height: 500px;
+flex-direction: row-reverse;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+
+  p:focus {
+    background-color: yellow;
+  }
+  .resize {
+    resize: both;
+  }
+  
